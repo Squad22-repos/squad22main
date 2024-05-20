@@ -1,0 +1,6 @@
+[submodule "squad22frontend"]
+	path = squad22frontend
+	url = https://github.com/Squad22-repos/squad22frontend.git
+[submodule "squad22backend"]
+	path = squad22backend
+	url = https://github.com/Squad22-repos/squad22backend.git
