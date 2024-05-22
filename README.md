@@ -73,4 +73,4 @@ Com isso, as imagens serão executadas em contêineres e a aplicação será exe
 
 <a id="ancora6"></a>
 ## Utilização dos Repositórios
-
+O código da aplicação está disponivel nos submodulos linkados neste repositório.
