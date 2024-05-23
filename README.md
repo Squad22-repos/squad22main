@@ -57,17 +57,19 @@ Quando chamado corretamente ele deverar retornar o Bearer token que será utiliz
 ## Acesso aos Contêineres
 O código do servidor pode ser execudato atráves das imagens disponibilizadas em nosso [repositório do docker](https://hub.docker.com/repository/docker/anthonyyuriff579/22squad/tags), essas imagens estão configuras para operar localmente sem utilizar os recursos na nuvem. Para fazer pull das imagens, utilize os comandos: 
 
-``docker pull anthonyyuriff579/22squad:local-database``
-
-``docker pull anthonyyuriff579/22squad:spring-app``
+~~~sh
+docker pull anthonyyuriff579/22squad:local-database
+docker pull anthonyyuriff579/22squad:spring-app
+~~~
 
 <a id="ancora5"></a>
 ### Utilizando os Contêineres
 Para utilizar o código conteinerizado, utilize os seguintes comandos:
 
-``docker run -p 9000:5432 --name database anthonyyuriff579/22squad:local-database``
-
-``docker run -p 8000:8000 --name app anthonyyuriff579/22squad:spring-app``
+~~~sh
+docker run -p 9000:5432 --name database anthonyyuriff579/22squad:local-database
+docker run -p 8000:8000 --name app anthonyyuriff579/22squad:spring-app
+~~~
 
 Com isso, as imagens serão executadas em contêineres e a aplicação será executada. O banco de dados estará disponivel na porta 9000, para fazer login, utilize o usuário postgres e a senha 12345. O servidor spring ficará disponivel na porta 8000, para utiliza-lo faça requisições como as do guia de uso do servidor do mvp.
 
