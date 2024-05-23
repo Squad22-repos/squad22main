@@ -1,7 +1,7 @@
 # Squad 22 - Rede Social - Unit
 
 ## Descrição
-Neste repositório se encontram todos os códigos produzidos pelo Squad 22 durante a Residência de Software 2024.1 do Porto Digital pela UNIT-SE, assim como links e guias para utilização daquilo foi produzido pelo squad.
+Neste repositório encontra-se tudo que foi produzido pelo Squad 22 durante a Residência de Software Grow Up 2024.1 do Porto Digital pela UNIT-SE, assim como links e guias para utilização daquilo foi produzido pelo squad.
 Especificamente, nesse repositório se encontram submodulos para os repositórios que hospedam o código das aplicações de backend e frontend produzidos pelo squad, e ainda neste readme, serão indexados links para acesso a aplicação e ao repositório do docker onde se encontram images para a execução local dos contêiners do banco de dados e da aplicação Spring Boot utilizada em nosso servidor.
 
 <a id="index"></a>
@@ -73,4 +73,4 @@ Com isso, as imagens serão executadas em contêineres e a aplicação será exe
 
 <a id="ancora6"></a>
 ## Utilização dos Repositórios
-O código da aplicação está disponivel nos submodulos linkados neste repositório.
+O código da aplicação está disponivel nos submodulos linkados neste repositório. A cada respositório possui uma branch main, para executar o código com aquilo que foi conectado a nuvem, e uma branch local para uma execuçãp local da aplicação. Mais informações estarão expostas em readmes em cada submodulo.
