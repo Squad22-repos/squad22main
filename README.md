@@ -4,6 +4,8 @@
 Neste repositório encontra-se tudo que foi produzido pelo Squad 22 durante a Residência de Software Grow Up 2024.1 do Porto Digital pela UNIT-SE, assim como links e guias para utilização daquilo foi produzido pelo squad.
 Especificamente, nesse repositório se encontram submodulos para os repositórios que hospedam o código das aplicações de backend e frontend produzidos pelo squad, e ainda neste readme, serão indexados links para acesso a aplicação e ao repositório do docker onde se encontram images para a execução local dos contêiners do banco de dados e da aplicação Spring Boot utilizada em nosso servidor.
 
+> ⚠️ **Aviso:** A aplicação não está mais no ar, por favor ignore a parte de acesso ao MVP.
+
 <a id="index"></a>
 ## Index
 1. [Acesso ao MVP](#acesso-ao-mvp)
